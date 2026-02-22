@@ -3264,7 +3264,8 @@ input, select, textarea {
 			}
 
 			#header.alt.style2 .logo strong {
-				color: #8d82c4;
+				color: #6fc3df;
+				/* color: #8d82c4; */
 			}
 
 			#header.alt.style3 .logo strong {
@@ -3952,3 +3953,4 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
