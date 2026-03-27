@@ -65,6 +65,13 @@
 						                    </div>
 						                </li>
 									</ol>
+									<script>
+						                function toggleAbstract(btn) {
+						                    const abstract = btn.closest('.pub-entry').querySelector('.pub-abstract');
+						                    const isOpen = abstract.classList.toggle('open');
+						                    btn.textContent = isOpen ? 'Abstract ▴' : 'Abstract ▾';
+						                }
+						            </script>
 							</section>
 
 					</div>
