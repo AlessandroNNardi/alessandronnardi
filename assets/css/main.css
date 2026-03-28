@@ -3954,3 +3954,32 @@ input, select, textarea {
 			visibility: visible;
 		}
 
+
+/* Abstract toggle styled like Forty */
+.pub-abstract {
+    margin-top: 0.75em;
+}
+
+.pub-abstract summary {
+    display: inline-block;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border: solid 1px #ffffff33;
+    padding: 0.4em 0.8em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.pub-abstract summary:hover {
+    background-color: #ffffff11;
+}
+
+.pub-abstract details[open] summary {
+    margin-bottom: 0.5em;
+}
+
+.pub-abstract p {
+    font-size: 0.9em;
+    color: #ccc;
+}
