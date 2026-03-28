@@ -3960,6 +3960,7 @@ input, select, textarea {
     margin-top: 0.75em;
 }
 
+/*
 .pub-abstract summary {
     display: inline-block;
     font-size: 0.8em;
@@ -3968,6 +3969,18 @@ input, select, textarea {
     border: solid 1px #ffffff33;
     padding: 0.4em 0.8em;
     cursor: pointer;
+    transition: all 0.2s ease;
+}
+*/
+
+.pub-abstract summary {
+    display: list-item;
+    cursor: pointer;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border: solid 1px #ffffff33;
+    padding: 0.4em 0.8em;
     transition: all 0.2s ease;
 }
 
